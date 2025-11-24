@@ -1,0 +1,55 @@
+#sold-counter {
+    color: #52ff33;
+    font-size: 1.2em;
+}
+#initial-stock-counter {
+    color: #0f3eff;
+    font-size: 1.2em;
+}
+#units-left-counter {
+    color: red;
+    font-size: 1.2em;
+}
+#counter-message {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    gap: 1%;
+    ;
+}
+.articlecontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: stretch;
+    padding: 3em;
+    border: red 1px dotted;
+
+}
+
+.textWrapper {
+    font-size: 1.2em;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    border: blue 1px solid;
+    gap: 4em;
+    padding-right: 20em;
+}
+.priceFont {
+    font-size: 1.5em;
+}
+
+
+.imageWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: lightslategray 1px dotted;
+    padding-right: 4em;
+}
+img {
+    max-height: 16em;
+}
